@@ -7,8 +7,8 @@
 </head>
 <body>
 
-<h1>Digital Store Full-Stack Development Project</h1>
-<p>This is a full-stack development project for a digital store, built using React.js for the front-end, Node.js and Express for the back-end, and MySQL for the database.</p>
+<h1>iDigital Store Full-Stack Development Project</h1>
+<p>This is a fullstack development project that Lior Grishin and I built to create a fully functional idigital store. The project uses React.js, Redux Toolkit Node.js and Express, and a MySQL database. The project allows users to browse digital products, add them to their cart, and checkout using Stripe.</p>
 <h3>Skills Used</h3>
 <ul>
 <li>
@@ -24,35 +24,41 @@ Express
 MySQL database
 </li>
 </ul>
+
 <h3>Project Overview</h3>
-<p>The digital store is a fully functional e-commerce website that allows users to browse products, add them to a cart, and checkout. The project is divided into two main parts - the front-end and the back-end.</p>
+<p>The idigital store is a fully functional e-commerce website that allows users to browse products, add them to a cart, and checkout. The project is divided into two main parts - the front-end and the back-end.</p>
 
 <h4>Front-End</h4>
-<p>The front-end is built using React.js, a popular JavaScript library for building user interfaces. The website has a clean and modern design with a responsive layout that adapts to different screen sizes. The website allows users to:</p>
+<p>The front-end is built using React.js. The website has a clean and modern design with a responsive layout that adapts to different computer screen sizes. mobile responsiveness is on its way. The website allows users to:</p>
 <ul><li><p>Browse products by category or search for specific items</p></li>
 <li><p>View product details and images</p></li>
 <li><p>Add products to a cart</p></li>
-<li><p>Edit the quantity of products in the cart</p></li>
 <li><p>Remove products from the cart</p></li>
-<li><p>Checkout and make payment using a third-party payment gateway</p></li>
 </ul>
 <h4>Back-End</h4>
-<p>The back-end is built using Node.js and Express, a popular framework for building web applications. The back-end provides an API for the front-end to interact with the database. The back-end is responsible for:</p>
+<p>The back-end is built using Node.js and Express. The back-end provides an API for the front-end to interact with the database. The back-end is responsible for:</p>
 <ul>
 <li><p>Retrieving products from the database and returning them to the front-end</p></li>
 <li><p>Handling requests to add, edit, or remove products from the cart</p></li>
 <li><p>Generating and returning an order ID to the front-end for payment processing</p></li>
-<li><p>Handling payment processing and order confirmation</p></li>
 </ul>
-<p>The back-end uses a MySQL database to store product and user information. The database schema includes tables for products, users, carts, and orders.</p>
+<p>The back-end uses a MySQL database to store product and user information. The database schema includes tables for products and users.</p>
+<p>This project does not include check out on purpos, to prevent confusion since it looks like the real site.</p>
 
 <h3>What I Learned</h3>
-<p>During the development of this project, I learned a lot about full-stack development using React.js, Node.js, Express, and MySQL. Some of the key things I learned include</p>
+<p>During the development of this project, I learned a lot about full-stack development using React.js, Redux Toolkit Node.js, Express, and MySQL. Some of the key things I learned include:</p>
 <ul>
 <li><p>Building a responsive front-end using React.js and CSS</p></li>
 <li><p>Creating a RESTful API using Node.js and Express</p></li>
 <li><p>Writing SQL queries to interact with a database using MySQ</p></li>
 </ul>    
+
+<h3>Summery</h3>
+<p>Building this project helped me develop my skills in fullstack development, specifically with React.js and Node.js. I also gained experience working with a MySQL database and integrating a payment system (Stripe) into a web application.
+
+Working on this project also taught me the importance of planning and organizing code for scalability and maintenance. As the project grew in complexity, I had to refactor code and optimize database queries to improve performance.
+
+Overall, this project allowed me to learn and practice a wide range of skills that are essential for building fullstack web applications.</p>
     
 </body>
 </html>
