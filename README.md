@@ -53,7 +53,7 @@ MySQL database
 <p>The back-end uses a MySQL database to store product and user information. The database schema includes tables for products and users.</p>
 <p>This project does not include check out on purpos, to prevent confusion since it looks like the real site.</p>
     
-    <p>Running the back end is not possible at the moment to prevent confusion. The code is still available to read.</p>
+<p>Running the back end is not possible at the moment to prevent confusion. The code is still available to read.</p>
 
 <h3>What I Learned</h3>
 <p>During the development of this project, I learned a lot about full-stack development using React.js, Redux Toolkit Node.js, Express, and MySQL. Some of the key things I learned include:</p>
