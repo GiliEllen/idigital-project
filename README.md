@@ -35,6 +35,14 @@ MySQL database
 <li><p>Add products to a cart</p></li>
 <li><p>Remove products from the cart</p></li>
 </ul>
+<p>Running the front-end is avilable by:</p>
+    <ul>
+        <li>downloading or forking the code.</li>
+        <li>opening a terminal on the client folder</li>
+        <li>Writing npm i in the command line</li>
+        <li>After instalation is over, writing npm start</li>
+    </ul>
+ 
 <h4>Back-End</h4>
 <p>The back-end is built using Node.js and Express. The back-end provides an API for the front-end to interact with the database. The back-end is responsible for:</p>
 <ul>
@@ -44,6 +52,8 @@ MySQL database
 </ul>
 <p>The back-end uses a MySQL database to store product and user information. The database schema includes tables for products and users.</p>
 <p>This project does not include check out on purpos, to prevent confusion since it looks like the real site.</p>
+    
+    <p>Running the back end is not possible at the moment to prevent confusion. The code is still available to read.</p>
 
 <h3>What I Learned</h3>
 <p>During the development of this project, I learned a lot about full-stack development using React.js, Redux Toolkit Node.js, Express, and MySQL. Some of the key things I learned include:</p>
