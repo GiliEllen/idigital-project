@@ -36,7 +36,7 @@ export async function registerUser(req: express.Request, res: express.Response) 
         connection.query(sql, (error, result) => {
             try {
                 if (error) throw error;
-
+                //@ts-ignore
                 const cookie = { userId: result.insertId };
                 const secret = process.env.JWT_SECRET;
                 if (!secret) throw new Error("Coudln't load secret from .env");
